@@ -1,3 +1,4 @@
 # task-Manager
 Frontend-приложение планировщика задач. Позволяет планировать задачи и удобно следить за их статусом.
 * C00kieHunt3R - Project Manager. Задачи по сопровождению проекта. DevOps.
+* Gordei20 - registration/sign in fronted frontend developer
