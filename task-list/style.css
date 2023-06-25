@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .header {
     height: 80px;
-    background-color: #FFD600;
-
+    background-color: #FFD600;   
+    
     display: flex;
     justify-content: space-between;
 }
 html {
     font-family: 'Inter';
+    margin: -10px;
 }
 .container {
     background-color: #FFFCE0;
     height: calc(100vh - 80px);
-    display: flex;
 }
 
 .footer {
@@ -71,39 +71,4 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-}
-
-.button{
-    text-decoration: none;
-    color:#000020
-<<<<<<< HEAD
-=======
-}
-
-@media (max-width: 500px) {
-
-    .header {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .logo-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .control-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .control-container .header-btn {
-        margin-bottom: 10pt;
-        width: 80%;
-        text-align: center;
-    }
->>>>>>> 225be4d313f23436041e803052de0b9d40a85566
 }
