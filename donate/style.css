@@ -72,7 +72,12 @@ html {
     align-items: center;
     flex-direction: row;
 }
-
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
 .button{
     text-decoration: none;
     color:#000020
