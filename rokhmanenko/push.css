@@ -2,39 +2,17 @@
 .header {
     height: 80px;
     background-color: #FFD600;   
+    
     display: flex;
     justify-content: space-between;
 }
-
 html {
     font-family: 'Inter';
     margin: -10px;
 }
-
 .container {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5em 0;
-    box-sizing: border-box;
-    color: black;
     background-color: #FFFCE0;
     height: calc(100vh - 80px);
-}
-
-.about{
-    width: 80vw;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-
-.container1 {
-    background-color: #FFFCE0;
 }
 
 .footer {
