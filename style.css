@@ -1,18 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap%27);
 .header {
     height: 80px;
+<<<<<<< HEAD
     background-color: #FFD600;
 
+=======
+    background-color: #FFD600;   
+>>>>>>> f0a8c2afc666c647835bfd08e0809b63c4817288
     display: flex;
     justify-content: space-between;
 }
+
 html {
     font-family: 'Inter';
 }
+
 .container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5em 0;
+    box-sizing: border-box;
+    color: black;
     background-color: #FFFCE0;
     height: calc(100vh - 80px);
     display: flex;
+}
+
+.about{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.container1 {
+    background-color: #FFFCE0;
 }
 
 .footer {
