@@ -2,38 +2,17 @@
 .header {
     height: 80px;
     background-color: #FFD600;   
+    
     display: flex;
     justify-content: space-between;
 }
-
 html {
     font-family: 'Inter';
+    margin: -10px;
 }
-
 .container {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5em 0;
-    box-sizing: border-box;
-    color: black;
     background-color: #FFFCE0;
     height: calc(100vh - 80px);
-}
-
-.about{
-    width: 80vw;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-
-.container1 {
-    background-color: #FFFCE0;
 }
 
 .footer {
@@ -93,35 +72,13 @@ html {
     align-items: center;
     flex-direction: row;
 }
-
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
 .button{
     text-decoration: none;
     color:#000020
-}
-
-@media (max-width: 500px) {
-
-    .header {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .logo-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .control-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .control-container .header-btn {
-        margin-bottom: 10pt;
-        width: 80%;
-        text-align: center;
-    }
 }
